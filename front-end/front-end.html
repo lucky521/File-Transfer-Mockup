@@ -1,0 +1,22 @@
+
+<t1>File Upload</t1>
+<br/>
+<br/>
+<form enctype="multipart/form-data" action="http://10.117.175.50:3000" method="POST">
+
+
+Text submit: <input type="text" name="usrname">
+<br/>
+<br/>
+File submit: <input type="file" name="uploadedfile" />
+<br/>
+<br/>
+Click to submit: <input type="submit" value="Upload File" />
+</form>
+
+
+
+<br>
+PS:
+http://10.117.175.50:3000/upload?upload_progress_id=12345
+<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
