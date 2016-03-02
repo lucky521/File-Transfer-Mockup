@@ -17,4 +17,4 @@ HTTP报头会指明Content-Type，文件会加入到HTTP的`MIME Multipart Media
 
 前端对文件url发起GET请求。
 
-后端处理GET请求，将文件放在HTTP报文的Content-type标明文件类型，正文中返回给前端。
+后端处理GET请求，HTTP报文的Content-type标明文件类型，将文件体放在正文中返回给前端。
