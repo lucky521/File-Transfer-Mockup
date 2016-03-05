@@ -1,9 +1,13 @@
 # File-Transfer-Mockup
 File Transfer on HTML
 
+File Transfer is a typical feature that could appears in kinds of scenario for web applications. HTTP is simple and practical, so we use it to transfer files intead of FTP. 
+
+At front end, we need to pack file binary into HTTP packet with help of JS script and HTML FORM tag. At end front, we can use various methods and language to handle HTTP request. 
 
 
-## 基础模型一
+
+## 基础模型
 
 ### 文件上传
 
